@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZynQR</title>
+    <!-- All Style link-->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Styles link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap Style link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+    <!-- Use -->
+    <div class="use" id="termsModal">
+        <div class="terms-content">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3>Условия использования</h3>
+            <select id="languageSelect" class="form-select w-auto">
+              <option value="ru">🇷🇺 Русский</option>
+              <option value="en">🇬🇧 English</option>
+            </select>
+          </div>
+          
+          <div id="termsText" class="overflow-auto" style="max-height: 300px;"></div>
+          
+          <div class="text-end mt-3">
+            <button id="acceptTerms" class="btn btn-success">Принимаю</button>
+          </div>
+        </div>
+      </div>
+      
+    <!-- Navbar -->
+    <div id="navbar" class="position-relative d-flex justify-content-center align-items-center py-5">
+        <img src="media/Logopit.png" alt="" id="logo">
+    </div>
+    <!-- Section -->
+    <div id="section" class="text-white d-flex flex-column py-4 justify-content-center align-items-center">
+        <div class="container">
+            <h1 class="h1 text-center">Free QR-code generation</h1>
+            <p class="text-center mt-3">ZynQR is a free service that helps you create a QR code</p>
+            <div id="input" class="d-flex justify-content-center align-items-center gap-1">
+                <input type="text" class="w-25 py-1 px-2" id="link" placeholder="content">
+                <button class="bg-success text-white py-1 px-3" id="generate">Submit</button>
+            </div>
+        </div>
+
+        <div id="result" class="text-center mt-4">
+            <h3 class="h3">Result</h3>
+            <div id="qr-image" class="mt-3"></div>
+        </div>
+    </div>
+    <!-- Bootstrap Js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- App js link -->
+      <script src="js/app.js"></script>
+</body>
+
+</html>
