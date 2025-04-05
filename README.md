@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="Logopit.png" alt="ZynQR Logo" width="300">
+    <img src="https://github.com/CodeArcadia-fastest/Zyn-QRcode/blob/main/media/Logopit.png" alt="ZynQR Logo" width="300">
 </p>
 
 <p align="center">
