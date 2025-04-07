@@ -47,7 +47,17 @@
                 <button class="bg-success text-white py-1 px-3" id="generate">Submit</button>
             </div>
         </div>
-
+        <div class="choose-color d-flex gap-3 align-items-center mt-4 mb-3">
+          <div>
+            <label for="qrColor" class="form-label text-light">Цвет QR</label>
+            <input type="color" id="qrColor" value="#000000" class="form-control form-control-color">
+          </div>
+          <div>
+            <label for="bgColor" class="form-label text-light">Фон</label>
+            <input type="color" id="bgColor" value="#ffffff" class="form-control form-control-color">
+          </div>
+        </div>
+        
         <div id="result" class="text-center mt-4">
             <h3 class="h3">Result</h3>
             <div id="qr-image" class="mt-3"></div>

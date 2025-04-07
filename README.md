@@ -5,7 +5,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Engine-2025.4-blueviolet" alt="Engine Version">
-    <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Project Version">
+    <img src="https://img.shields.io/badge/Version-1.0.0(beta)-blue" alt="Project Version">
     <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
 </p>
 
